@@ -1,0 +1,123 @@
+body {
+    margin: auto;
+    padding: 0;
+    width: 720px;
+    font-family: sans-serif;
+    background-image: linear-gradient(100deg,black, #20d2f4, black,#20d2f4 ,black );
+}
+
+nav {
+    position: fixed;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 720px;
+    margin: auto;
+    background-color: black;
+}
+
+nav img {
+    height: 120px;
+}
+
+.btn {
+    color: white;
+    font-size: 50px;
+}
+
+nav button {
+ background: none;
+ border: none;
+}
+
+video {
+    width: 720px;
+    height: 1200px;
+    background-color: black;
+    margin: 0;
+}
+
+.product_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1000px;
+    margin: 0;
+    padding: 50px 0;
+    background-image: linear-gradient(245deg,black, #20d2f4, black,#20d2f4 ,black );
+    border-left: 20px solid black ;
+    border-right: 20px solid black ;
+}
+
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.product div {
+    display: flex;
+    gap: 50px;
+}
+
+.products h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.products i {
+    font-size: 150px;
+}
+
+.products button {
+    border: none;
+    background: none;
+    font-size: 40px;
+    color: #20d2f4;
+    margin: 50px 40px;
+}
+
+.artists {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1200px;
+    margin: 0;
+    padding: 100px 0;
+    background-image: linear-gradient(110deg,black, #20d2f4, black,#20d2f4 ,black );
+    border-left: 20px solid black ;
+    border-right: 20px solid black ;
+    color: #20d2f4;
+}
+
+.artists div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artists img {
+    height: 250px;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+    background-color: black;
+    color: #20d2f4;
+}
+
+footer i {
+    font-size: 50px;
+}
